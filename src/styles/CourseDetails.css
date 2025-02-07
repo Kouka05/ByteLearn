@@ -1,0 +1,117 @@
+/* Course Details Layout */
+.course-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 80vh;
+    padding: 3rem 8%;
+    background-color: #1e1e1e;
+    color: #ffffff;
+    flex-wrap: wrap;
+  }
+  
+  /* Course Information */
+  .course-info {
+    max-width: 50%;
+  }
+  
+  .course-info h1 {
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .course-info p {
+    font-size: 1.1rem;
+    opacity: 0.8;
+  }
+  
+  .back-button {
+    display: inline-block;
+    margin-top: 1rem;
+    color: #61dafb;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  .back-button:hover {
+    color: #8dc5ff;
+  }
+  
+  /* Video Placeholder (Image with Play Button) */
+  .video-preview {
+    position: relative;
+    width: 450px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .video-preview img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+  }
+  
+  /* Play Button Overlay */
+  .play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 2rem;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+  }
+  
+  .play-button:hover {
+    background: rgba(0, 0, 0, 0.9);
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 1024px) {
+    .course-details {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .course-info {
+      max-width: 90%;
+      margin-bottom: 2rem;
+    }
+  
+    .video-preview {
+      width: 80%;
+      max-width: 400px;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .course-details {
+      padding: 2rem 5%;
+    }
+  
+    .course-info h1 {
+      font-size: 1.8rem;
+    }
+  
+    .video-preview {
+      width: 95%;
+    }
+  
+    .play-button {
+      width: 50px;
+      height: 50px;
+      font-size: 1.5rem;
+    }
+  }
+  

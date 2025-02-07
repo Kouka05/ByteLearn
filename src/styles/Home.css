@@ -1,0 +1,106 @@
+/* General Styling */
+.home-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 90vh; /* Reduced height to fit more content */
+    padding: 3rem 8%; /* Less vertical padding */
+    background-color: #1e1e1e;
+    color: #ffffff;
+    flex-wrap: wrap;
+  }
+  
+  /* Welcome Section */
+  .welcome-section {
+    max-width: 50%;
+  }
+  
+  .welcome-section h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .welcome-section .highlight {
+    color: #61dafb; /* React Blue */
+  }
+  
+  .welcome-section p {
+    font-size: 1.1rem;
+    opacity: 0.8;
+  }
+  
+  /* Themed Card */
+  .slogan-card {
+    background-color: #252526;
+    padding: 1.2rem;
+    border-radius: 10px;
+    width: 320px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    font-family: "Fira Code", monospace;
+  }
+  
+  /* Card Header with Circles */
+  .card-header {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .circle {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+  }
+  
+  .red { background-color: #ff5f56; }
+  .yellow { background-color: #ffbd2e; }
+  .green { background-color: #27c93f; }
+  
+  /* Code Syntax Styling */
+  .card-content {
+    font-size: 1rem;
+    color: #c5c8c6;
+  }
+  
+  .syntax-keyword {
+    color: #c678dd; /* Purple */
+    font-weight: bold;
+  }
+  
+  .syntax-variable {
+    color: #61dafb; /* React Blue */
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 1024px) {
+    .home-container {
+      flex-direction: column;
+      text-align: center;
+      justify-content: center;
+    }
+  
+    .welcome-section {
+      max-width: 90%;
+      margin-bottom: 2rem;
+    }
+  
+    .slogan-card {
+      width: 80%;
+      max-width: 350px;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .home-container {
+      padding: 2rem 5%;
+    }
+  
+    .welcome-section h1 {
+      font-size: 1.8rem;
+    }
+  
+    .slogan-card {
+      width: 95%;
+    }
+  }
+  

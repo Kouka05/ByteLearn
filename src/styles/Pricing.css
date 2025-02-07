@@ -1,0 +1,103 @@
+/* Pricing Section */
+.pricing-section {
+  min-height: 100vh;
+  text-align: center;
+  padding: 1rem 2rem;
+  background-color: #1e1e1e; 
+  color: #d4d4d4;
+  padding-bottom: 1rem;
+}
+
+.pricing-section h2 {
+  font-size: 2rem;
+  color: #ffffff;
+  margin-bottom: 2rem;
+}
+
+/* Pricing Cards */
+.pricing-cards {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.pricing-card {
+  background: #252526; 
+  padding: 2rem;
+  border-radius: 8px;
+  width: 280px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin-bottom: 1rem;
+}
+
+.pricing-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+}
+
+
+/* Pro Card Special Styling */
+.pro {
+  background: #007acc; 
+  color: #ffffff;
+}
+
+.pricing-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.price {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.price span {
+  font-size: 1rem;
+  color: #aaaaaa;
+}
+
+.pricing-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 1.5rem 0;
+}
+
+.pricing-card ul li {
+  margin: 0.5rem 0;
+  font-size: 1rem;
+}
+li{
+  border : none;
+}
+
+/* Buttons */
+.pricing-card button {
+  background: #007acc;
+  color: #ffffff;
+  border: none;
+  padding: 0.7rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.pricing-card button:hover {
+  background: #005fa3;
+}
+.pricing-card .upgrade-button {
+  background: #1e1e1e;}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .pricing-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+

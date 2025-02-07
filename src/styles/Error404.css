@@ -1,0 +1,59 @@
+.error-container {
+    background-color: #1e1e1e;
+    min-height: 100vh;
+    color: #d4d4d4;
+    text-align: center;
+    padding: 4rem 2rem;
+  }
+  
+  .error-title {
+    font-size: 3rem;
+    color: #ff5555;
+    margin-bottom: 1.5rem;
+  }
+  
+  .error-code {
+    background-color: #252526;
+    color: #ffffff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    width: fit-content;
+    margin: 0 auto;
+    font-family: "Courier New", monospace;
+    text-align: left;
+  }
+  
+  /* Syntax Highlighting */
+  .keyword {
+    color: #c586c0;
+  }
+  
+  .function-name {
+    color: #dcdcaa;
+  }
+  
+  .element {
+    color: #569cd6;
+  }
+  
+  .string {
+    color: #ce9178;
+  }
+  
+  /* Button */
+  .back-button {
+    margin-top: 2rem;
+    background: #007acc;
+    color: white;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .back-button:hover {
+    background: #005fa3;
+  }
+  
