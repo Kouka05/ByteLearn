@@ -14,7 +14,7 @@ import Error404 from './Pages/Error404';
 
 function App() {
   return (
-    <Router>
+    <Router basename='/ByteLearn'>
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
