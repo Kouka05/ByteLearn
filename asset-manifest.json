@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/ByteLearn/static/css/main.babd578b.css",
-    "main.js": "/ByteLearn/static/js/main.55f58f36.js",
+    "main.js": "/ByteLearn/static/js/main.b19f682e.js",
     "static/media/icon.svg": "/ByteLearn/static/media/icon.099c9f574bfe591a11c3ba67d04342b5.svg",
     "index.html": "/ByteLearn/index.html",
     "main.babd578b.css.map": "/ByteLearn/static/css/main.babd578b.css.map",
-    "main.55f58f36.js.map": "/ByteLearn/static/js/main.55f58f36.js.map"
+    "main.b19f682e.js.map": "/ByteLearn/static/js/main.b19f682e.js.map"
   },
   "entrypoints": [
     "static/css/main.babd578b.css",
-    "static/js/main.55f58f36.js"
+    "static/js/main.b19f682e.js"
   ]
 }
