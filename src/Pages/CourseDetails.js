@@ -3,27 +3,32 @@ import { useParams, Link } from "react-router-dom";
 import { FaPlay } from "react-icons/fa";
 import Error404 from "./Error404";
 import "../styles/CourseDetails.css";
+import ReactImg from "../Assets/Reactjs.jpg";
+import JavaScriptImg from "../Assets/JavaScript.jpg";
+import NodeJsImg from "../Assets/NodeJs.png";
+
 
 const courses = [
   {
     id: 1,
     title: "React Basics",
     description: "Learn the fundamentals of React.",
-    image: "../Assets/Reactjs.jpg",
+    image: ReactImg,
   },
   {
     id: 2,
     title: "Advanced JavaScript",
     description: "Master advanced JavaScript concepts.",
-    image: "../Assets/JavaScript.jpg",
+    image: JavaScriptImg,
   },
   {
     id: 3,
     title: "Node.js for Beginners",
     description: "Get started with Node.js.",
-    image: "../Assets/NodeJs.png",
+    image: NodeJsImg,
   },
 ];
+
 
 const CourseDetails = () => {
   const { id } = useParams();
