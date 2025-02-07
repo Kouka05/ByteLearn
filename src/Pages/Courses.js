@@ -7,28 +7,24 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "../styles/Courses.css";
 
-import ReactImg from "/Assets/Reactjs.jpg";
-import JavaScriptImg from "/Assets/JavaScript.jpg";
-import NodeJsImg from "/Assets/NodeJs.png";
-
 const courses = [
   {
     id: 1,
     title: "React Basics",
     description: "Learn the fundamentals of React.",
-    image: ReactImg,
+    image: "${process.env.PUBLIC_URL}/Assets/Reactjs.jpg",
   },
   {
     id: 2,
     title: "Advanced JavaScript",
     description: "Master advanced JavaScript concepts.",
-    image: JavaScriptImg,
+    image: "${process.env.PUBLIC_URL}/Assets/JavaScript.jpg",
   },
   {
     id: 3,
     title: "Node.js for Beginners",
     description: "Get started with Node.js.",
-    image: NodeJsImg,
+    image: "${process.env.PUBLIC_URL}/Assets/NodeJs.png",
   },
 ];
 

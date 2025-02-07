@@ -3,9 +3,7 @@ import { useParams, Link } from "react-router-dom";
 import { FaPlay } from "react-icons/fa";
 import Error404 from "./Error404";
 import "../styles/CourseDetails.css";
-import ReactImg from "../Assets/Reactjs.jpg";
-import JavaScriptImg from "../Assets/JavaScript.jpg";
-import NodeJsImg from "../Assets/NodeJs.png";
+
 
 
 const courses = [
@@ -13,19 +11,19 @@ const courses = [
     id: 1,
     title: "React Basics",
     description: "Learn the fundamentals of React.",
-    image: ReactImg,
+    image: "${process.env.PUBLIC_URL}/Assets/Reactjs.jpg",
   },
   {
     id: 2,
     title: "Advanced JavaScript",
     description: "Master advanced JavaScript concepts.",
-    image: JavaScriptImg,
+    image: "${process.env.PUBLIC_URL}/Assets/JavaScript.jpg",
   },
   {
     id: 3,
     title: "Node.js for Beginners",
     description: "Get started with Node.js.",
-    image: NodeJsImg,
+    image: "${process.env.PUBLIC_URL}/Assets/NodeJs.png",
   },
 ];
 
