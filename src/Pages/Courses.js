@@ -12,19 +12,19 @@ const courses = [
     id: 1,
     title: "React Basics",
     description: "Learn the fundamentals of React.",
-    image: "${process.env.PUBLIC_URL}/Assets/Reactjs.jpg",
+    image: process.env.PUBLIC_URL + "/Assets/Reactjs.jpg",
   },
   {
     id: 2,
     title: "Advanced JavaScript",
     description: "Master advanced JavaScript concepts.",
-    image: "${process.env.PUBLIC_URL}/Assets/JavaScript.jpg",
+    image: process.env.PUBLIC_URL + "/Assets/JavaScript.jpg",
   },
   {
     id: 3,
     title: "Node.js for Beginners",
     description: "Get started with Node.js.",
-    image: "${process.env.PUBLIC_URL}/Assets/NodeJs.png",
+    image: process.env.PUBLIC_URL + "/Assets/NodeJs.png",
   },
 ];
 
