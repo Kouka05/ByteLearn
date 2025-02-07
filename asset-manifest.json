@@ -1,14 +1,17 @@
 {
   "files": {
     "main.css": "/ByteLearn/static/css/main.babd578b.css",
-    "main.js": "/ByteLearn/static/js/main.b19f682e.js",
+    "main.js": "/ByteLearn/static/js/main.947659ec.js",
+    "static/media/NodeJs.png": "/ByteLearn/static/media/NodeJs.fec8553a062eb1c472dd.png",
+    "static/media/JavaScript.jpg": "/ByteLearn/static/media/JavaScript.13045c38455db998e1b3.jpg",
     "static/media/icon.svg": "/ByteLearn/static/media/icon.099c9f574bfe591a11c3ba67d04342b5.svg",
+    "static/media/Reactjs.jpg": "/ByteLearn/static/media/Reactjs.109ee2bc9ae4accdba40.jpg",
     "index.html": "/ByteLearn/index.html",
     "main.babd578b.css.map": "/ByteLearn/static/css/main.babd578b.css.map",
-    "main.b19f682e.js.map": "/ByteLearn/static/js/main.b19f682e.js.map"
+    "main.947659ec.js.map": "/ByteLearn/static/js/main.947659ec.js.map"
   },
   "entrypoints": [
     "static/css/main.babd578b.css",
-    "static/js/main.b19f682e.js"
+    "static/js/main.947659ec.js"
   ]
 }
