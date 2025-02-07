@@ -22,4 +22,4 @@ Built with a **VS Code-like theme**, it offers a sleek UI and a smooth user expe
 ## 🚀 How to Run the Project
 1. Clone the repository:
    ```bash
-   git clone <YOUR_GITHUB_REPO_URL>
+   git clone https://github.com/Kouka05/ByteLearn
